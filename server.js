@@ -91,7 +91,7 @@ function createConnection() {
             JsonDataSetMessageContentMask.MetaDataVersion,
         },
         transportSettings: {
-            queueName: "/opcuaovermqttdemo/temperature",
+            queueName: "opcuaovermqttdemo/temperature",
         },
     };
 
